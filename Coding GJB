@@ -1,0 +1,8 @@
+Private Sub JJ_Click()
+Range("I5").Value = 0 '0
+ delta_t = Range("C10").Value '0,1
+  While Range("I5").Value < 9
+  Range("I5").Value = Range("I5").Value + delta_t
+  DoEvents
+ Wend
+End Sub
